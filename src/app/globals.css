@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+:root {
+  --bera-gradient: linear-gradient(114deg, #F6C253 10.11%, #E88D35 94.9%);
+  --font-dm-sans: 'DM Sans', sans-serif;
+
+  /* Colors */
+  --sage-1: #fcfcfd;
+  --sage-2: #f9f9fb;
+  --sage-3: #f0f0f3;
+  --sage-4: #e8e8ec;
+  --sage-5: #e0e1e6;
+  --sage-6: #d9dae0;
+  --sage-7: #cdced6;
+  --sage-8: #b9bbc6;
+  --sage-9: #8b8d98;
+  --sage-10: #80838d;
+  --sage-11: #60646c;
+  --sage-12: #1c2024;
+
+  --grass-1: #fbfefb;
+  --grass-2: #f3fcf3;
+  --grass-3: #ebf9eb;
+  --grass-4: #dff3df;
+  --grass-5: #ceebcf;
+  --grass-6: #b7dfba;
+  --grass-7: #97cf9c;
+  --grass-8: #65ba75;
+  --grass-9: #46a758;
+  --grass-10: #3d9a50;
+  --grass-11: #297c3b;
+  --grass-12: #1b311e;
+
+  --red-1: #fffcfc;
+  --red-2: #fff8f8;
+  --red-3: #ffefef;
+  --red-4: #ffe5e5;
+  --red-5: #fdd8d8;
+  --red-6: #fac7c7;
+  --red-7: #f3aeae;
+  --red-8: #eb9091;
+  --red-9: #e5484d;
+  --red-10: #dc3d43;
+  --red-11: #cd2b31;
+  --red-12: #381316;
+
+  /* Project-specific colors */
+  --black: #000000;
+  --white: #ffffff;
+  --beige: #f0ede9;
+  --bera-yellow: #f4bb4f;
+  --bera-yellow-dark: #f6c253;
+  --gray-100: #f2f2f2;
+  --gray-300: #8e8d8d;
+  --gray-400: #5a5a5a;
+  --gray-450: #949494;
+  --gray-500: #808080;
+  --gray-550: #6c6a6a;
+  --gray-600: #575454;
+  --gray-700: #383433;
+  --gray-800: #131518;
+  --gray-900: #0d0804;
+  --green: #3ec552;
+  --gray-950: #1e1c1a;
+  --gray-950-alt: #1f1c19;
+
+  /* Other variables */
+  --radius: 0.5rem;
+  --radius-lg: 1rem;
+}
+
+#onboarding .dark {
+  --background: 0 0% 4%; /* #090909 */
+  --foreground: 0 0% 100%; /* #ffffff */
+  --card: 0 0% 11%;
+  --card-foreground: var(--white);
+  --popover: 0 0% 11%;
+  --popover-foreground: var(--white);
+  --primary: 151 79% 67%;
+  --primary-foreground: 222.2 47.4% 1.2%;
+  --secondary: var(--gray-700);
+  --secondary-foreground: var(--white);
+  --muted: var(--gray-600);
+  --muted-foreground: var(--gray-500);
+  --accent: 46 84% 65%;
+  --accent-foreground: var(--gray-900);
+  --destructive: var(--red-9);
+  --destructive-foreground: var(--white);
+  --border: var(--gray-700);
+  --input: var(--gray-700);
+  --ring: var(--bera-yellow);
+}
+
+body {
+  font-family: var(--font-dm-sans);
+  color: var(--foreground);
+  background-color: var(--background);
+}
+
+* {
+  font-family: var(--font-dm-sans);
+}
+
+.bera-gradient-text {
+  background-image: var(--bera-gradient);
+  background-clip: text;
+  color: transparent;
+}
+
+.bera-card-gradient {
+  background: radial-gradient(circle, rgba(244, 187, 79, 0.5) 0%, rgba(232, 141, 53, 0) 100%);
+}
